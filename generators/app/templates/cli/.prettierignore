@@ -1,0 +1,11 @@
+/dist/*
+.local
+.output.js
+/node_modules/**
+src/.DS_Store
+/bin/*
+**/*.svg
+**/*.sh
+
+/public/*
+components.d.ts

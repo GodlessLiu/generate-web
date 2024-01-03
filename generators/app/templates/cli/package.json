@@ -1,0 +1,44 @@
+{
+  "name": "cli-templete",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "type": "commonjs",
+  "bin": {
+    "laf": "bin/index.js"
+  },
+  "engines": {
+    "node": ">=v16.20.0"
+  },
+  "scripts": {
+    "test": "node bin/index.js",
+    "build": "tsup",
+    "lint": "eslint . --fix",
+    "prettier-format": "prettier --config .prettierrc.cjs . --write"
+  },
+  "keywords": [
+    "templete",
+    "starter",
+    "cli"
+  ],
+  "author": "Hilary liu<2788370451@qq.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@tsconfig/node18": "^18.2.2",
+    "@types/figlet": "^1.5.8",
+    "@types/prompts": "^2.4.9",
+    "@typescript-eslint/eslint-plugin": "^6.17.0",
+    "@typescript-eslint/parser": "^6.17.0",
+    "eslint": "^8.56.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-prettier": "^5.1.2",
+    "prettier": "^3.1.1",
+    "tsup": "^8.0.1",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "figlet": "^1.7.0",
+    "prompts": "^2.4.2"
+  }
+}
